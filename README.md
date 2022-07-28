@@ -9,4 +9,15 @@ Here you can see how to work with Django, Nginx, Gunicorn, Redis, Celery and Pos
 
 #### Installiation
 
-- Clone the project to your local PC: git clone
+- Clone the project from GitHub to your local PC:
+
+```
+git clone https://github.com/r0m1mPL/Django-Docker-Nginx-Redis-Celery-PostgreSQL-Gunicorn.git
+cd ./Django-Docker-Nginx-Redis-Celery-PostgreSQL-Gunicorn
+```
+
+- (Optional) Change environment variables in `.env` and all `setenv.sh`
+
+#### Running
+
+- `docker-compose up -d --build`
